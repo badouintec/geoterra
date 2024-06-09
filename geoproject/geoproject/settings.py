@@ -39,8 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.gis',
     'leaflet',
-    'geodjangoapp',
+    'geodjangoapp',  # Asegúrate de agregar tu aplicación aquí
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
