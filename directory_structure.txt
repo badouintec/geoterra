@@ -1,0 +1,25 @@
+.
+├── LICENSE
+├── README.md
+├── directory_structure.txt
+├── geoproject
+│   ├── geodjangoapp
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── migrations
+│   │   ├── models.py
+│   │   ├── tests.py
+│   │   └── views.py
+│   └── geoproject
+│       ├── __init__.py
+│       ├── __pycache__
+│       ├── asgi.py
+│       ├── settings.py
+│       ├── urls.py
+│       └── wsgi.py
+├── list_structure.sh
+├── manage.py
+└── reorganize.sh
+
+6 directories, 17 files
