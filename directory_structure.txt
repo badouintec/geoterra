@@ -1,4 +1,120 @@
 .
+├── .git
+│   ├── COMMIT_EDITMSG
+│   ├── FETCH_HEAD
+│   ├── HEAD
+│   ├── branches
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── push-to-checkout.sample
+│   │   ├── sendemail-validate.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   ├── exclude
+│   │   └── refs
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── main
+│   │       └── remotes
+│   │           └── origin
+│   │               ├── HEAD
+│   │               └── main
+│   ├── objects
+│   │   ├── 15
+│   │   │   └── a61c81c2320ac335a8af87b56145960796ad41
+│   │   ├── 2a
+│   │   │   └── b0037d155e9633a93a045552ad5a01f9cec227
+│   │   ├── 37
+│   │   │   └── bc7dd23ce542b44a9962a5321228d6ba28e578
+│   │   ├── 3a
+│   │   │   └── c770f90c1da80113adfa8176f4264296fe08bf
+│   │   ├── 45
+│   │   │   └── 6a1daff18fd8078dee77d3e30d845c6c9e8c06
+│   │   ├── 4c
+│   │   │   └── e47227d11c22f1ff674eae23bc4f321a61d1a2
+│   │   ├── 53
+│   │   │   └── d4b15bce146bff8bc5b0d0e9daec316dcd63a7
+│   │   ├── 5a
+│   │   │   └── 42ccddd919da8c9c87693a321a689a616199f7
+│   │   ├── 62
+│   │   │   └── c441a7c72f2d546bc5554f604b998c67d062c4
+│   │   ├── 63
+│   │   │   └── e1bee14a36b8a1599a9e55959f0b7c122155fb
+│   │   ├── 65
+│   │   │   └── c8491d486d7cc2d66645b8cd67d305ee4ef3f3
+│   │   ├── 69
+│   │   │   └── 445f5fe36186153c10c236f52ddf08cfea0559
+│   │   ├── 72
+│   │   │   └── 50fcfd3855cc4c0fa8052a986cd0f9f43554ac
+│   │   ├── 7f
+│   │   │   └── 38683c89980c6aa98e78c53458d460c2676dab
+│   │   ├── 8f
+│   │   │   └── c75d303c50747e6fc4fb942720a24f31c95adb
+│   │   ├── 96
+│   │   │   └── 3e3eef9c581aaf3529a8f05c13b9c7e59d8097
+│   │   ├── 9d
+│   │   │   └── 1dcfdaf1a6857c5f83dc27019c7600e1ffaff8
+│   │   ├── a4
+│   │   │   └── 379a99db9fdf838e7ddd61a1e51e25e6185238
+│   │   ├── ad
+│   │   │   └── 75c8370a637ae6702d936350a0057eee2f4f69
+│   │   ├── b3
+│   │   │   └── 8633383ad766496ddbd9f81ce35fd6778ddfad
+│   │   ├── b6
+│   │   │   └── 906840d24a5c454d5c1778d503bf95a00499ef
+│   │   ├── c4
+│   │   │   └── 9bb99b3eb8e2bbb56ad260e8736971c59c8e48
+│   │   ├── cd
+│   │   │   └── d92b2c607c9584ce89ba6ef60ff195a589162f
+│   │   ├── ce
+│   │   │   └── c6a6eded09a7454a703b78a8a41cf7cdf4d550
+│   │   ├── d5
+│   │   │   ├── c0d86bc52901b04ace37baaeab61cdb00efaa9
+│   │   │   └── d2e9cfc454ea5ba7a372bddef71c59eed1192c
+│   │   ├── db
+│   │   │   └── e968e1107133dae0eccabc5241edd51a9bed4e
+│   │   ├── df
+│   │   │   └── 1a13c5b794174af8797fb2f7cf8d00ca63f328
+│   │   ├── e4
+│   │   │   └── 50f5c2d2398ee3b6c94b08db60ef5dc90752f9
+│   │   ├── e5
+│   │   │   └── da43ab80c1e7052bab4e96df5a4a8a72b882af
+│   │   ├── f6
+│   │   │   └── bda4c84e8d658625e72e1da709985848a7611e
+│   │   ├── info
+│   │   │   ├── commit-graph
+│   │   │   └── packs
+│   │   └── pack
+│   │       ├── pack-9fe8bdb39e401ca8bbdb6460cdc3d5c383107fd8.idx
+│   │       ├── pack-9fe8bdb39e401ca8bbdb6460cdc3d5c383107fd8.pack
+│   │       ├── pack-9fe8bdb39e401ca8bbdb6460cdc3d5c383107fd8.rev
+│   │       ├── pack-ec20d1e8555bb85b3977be7a1fce1731d70a722f.idx
+│   │       ├── pack-ec20d1e8555bb85b3977be7a1fce1731d70a722f.pack
+│   │       └── pack-ec20d1e8555bb85b3977be7a1fce1731d70a722f.rev
+│   ├── packed-refs
+│   └── refs
+│       ├── heads
+│       │   └── main
+│       ├── remotes
+│       │   └── origin
+│       │       ├── HEAD
+│       │       └── main
+│       └── tags
 ├── LICENSE
 ├── README.md
 ├── directory_structure.txt
@@ -8,12 +124,15 @@
 │   │   ├── admin.py
 │   │   ├── apps.py
 │   │   ├── migrations
+│   │   │   └── __init__.py
 │   │   ├── models.py
 │   │   ├── tests.py
 │   │   └── views.py
 │   └── geoproject
 │       ├── __init__.py
 │       ├── __pycache__
+│       │   ├── __init__.cpython-312.pyc
+│       │   └── settings.cpython-312.pyc
 │       ├── asgi.py
 │       ├── settings.py
 │       ├── urls.py
@@ -22,4 +141,4 @@
 ├── manage.py
 └── reorganize.sh
 
-6 directories, 17 files
+53 directories, 89 files

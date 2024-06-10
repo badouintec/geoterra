@@ -9,10 +9,10 @@ OUTPUT_FILE="directory_structure.txt"
 if command -v tree &> /dev/null
 then
     echo "Usando el comando tree para listar la estructura de directorios:"
-    tree -L 3 -I "myenv|node_modules" . > "$OUTPUT_FILE"
+    tree -a -I "myenv|node_modules" . > "$OUTPUT_FILE"
 else
     echo "El comando tree no está instalado. Usando el comando find en su lugar:"
-    find . -maxdepth 3 -not -path "./myenv*" -not -path "./node_modules*" > "$OUTPUT_FILE"
+    find . -print > "$OUTPUT_FILE"
 fi
 
 echo "La estructura de directorios ha sido exportada a $OUTPUT_FILE"
